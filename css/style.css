@@ -1,15 +1,11 @@
-
-body{
-    
+body {
     background-color: gray
 }
 
-
-
 nav ul {
     text-align: right;
-   
 }
+
 #nav li {
     display: inline;
     list-style-type: none;
@@ -20,14 +16,14 @@ nav ul {
     width: 84em;
     padding: 0.2em;
     border: 1px solid black;
-    background: linear-gradient( yellow, red);
+    background-color: black;
 }
 
 nav a {
-    font-size: 40px; 
+    font-size: 40px;
     text-decoration: none;
     font-weight: bold;
-    color: limegreen;
+    color: grey;
     transition: background-color .25s ease-in;
 }
 
@@ -35,6 +31,6 @@ nav a:focus,
 nav a:hover,
 nav span {
     color: #303728;
-    background-color: greenyellow;
+    background-color: lightgray;
     transition: background-color 0.01s;
 }
